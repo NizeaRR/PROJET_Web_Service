@@ -14,7 +14,7 @@ export default function ContactItem(props) {
             <div className={styles.buttons}>
                 <form action="http://localhost:3000">
                     <button>
-                        ⬅ Contacts
+                        Contacts
                     </button>
                 </form>
                 <button>
@@ -29,15 +29,15 @@ export default function ContactItem(props) {
                 <span className={styles.info}>{props.data.lastname} {props.data.firstname}</span>
             </div>
             <div className={styles.subbox}>
-                <span className={styles.subtitle}>Numéro</span>
+                <span className={styles.subtitle}>Numéro Téléphone</span>
                 <span className={styles.label}>{props.data.number}</span>
             </div>
             <div className={styles.subbox}>
-                <span className={styles.subtitle}>Adresse Mail</span>
+                <span className={styles.subtitle}>Adresse Email</span>
                 <span className={styles.label}>{props.data.email}</span>
             </div>
             <div className={styles.subbox}>
-                <span className={styles.subtitle}>Adresse</span>
+                <span className={styles.subtitle}>Adresse postale</span>
                 <span className={styles.label}>{props.data.adress}</span>
             </div>
         </div>
