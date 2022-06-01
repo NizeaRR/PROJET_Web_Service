@@ -1,7 +1,7 @@
 Membres du groupe : 
 
 Nathan Thury
-Mathilde Brault
+- Mathilde Brault
 
 PROJET WEB SERVICE 2022
 
