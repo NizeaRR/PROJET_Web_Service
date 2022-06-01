@@ -1,9 +1,9 @@
 .container {
     display: flex;
-    background-color: #DCDCDC;
+    background-color: #dcdcdc51;
     padding: 5px;
-    border: 1px solid #808080;
-    width: 35%;
+    border: 1px solid #070707;
+    width: 900 px;
     flex-direction: column;
     height: 600px;
     border-radius: 15px;
@@ -16,8 +16,8 @@
 
 
 .subtitle {
-    color: #343a40;
-    font-weight: bold;
+    color: #a1046d;
+    font-weight: strong;
     padding: 12px;
 }
 

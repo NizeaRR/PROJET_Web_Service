@@ -15,7 +15,7 @@ export default function ContactItem(props) {
             </div>
             <div className={styles.box}>
                 <img src={props.data.picture} />
-                <span className={styles.info}>{props.data.lastname} {props.data.firstname}</span>
+                <span className={styles.info}>{props.data.id} : {props.data.lastname} {props.data.firstname}</span>
             </div>
         </div>
     )
